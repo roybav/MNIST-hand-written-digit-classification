@@ -6,5 +6,7 @@ Machine learning model that classifies a hand-written image to a 0-9 digit.
 - Every image was transofmed into a 28x28 pixel-matrix, that was reshaped to a 1x784 row-vector.
 - Training set size: 60,000 rows.
 - Test set size: 10,000 rows.
+- Accuracy was calculated: number of correct classifications divided by the whole number of images (of the test set).
 
 1. First, I used the default values of all the parameters of the MLPClassifier function.
+The calculated accuracy was: 0.9647.
